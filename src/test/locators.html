@@ -1,0 +1,54 @@
+
+Locators in URL: http://training.skillo-bg.com:4200/posts/all
+
+how to use?
+..
+~
+
+
+navigation bar->
+.navbar-expand-md  &&
+html body app-root div.row.fixed-header-padding app-header.col-12 header.header-container.overflow-hidden nav.navbar.navbar-expand-md.navbar-light.bg-light
+
+HomeLogo->
+//*[@id="homeIcon"] &&
+#homeIcon  &&
+html body app-root div.row.fixed-header-padding app-header.col-12 header.header-container.overflow-hidden nav.navbar.navbar-expand-md.navbar-light.bg-light div.container a.navbar-brand img#homeIcon
+
+NavigationBar Brand ->
+html body app-root div.row.fixed-header-padding app-header.col-12 header.header-container.overflow-hidden nav.navbar.navbar-expand-md.navbar-light.bg-light div.container a.navbar-brand
+/html/body/app-root/div[1]/app-header/header/nav/div/a
+
+Home button ->
+//*[@id="nav-link-home"]
+#nav-link-home
+html body app-root div.row.fixed-header-padding app-header.col-12 header.header-container.overflow-hidden nav.navbar.navbar-expand-md.navbar-light.bg-light div.container div#navbarColor01.navbar-collapse.navbar-container.collapse ul.navbar-nav li.nav-item
+
+Login button ->
+//*[@id="nav-link-login"]
+#nav-link-login
+html body app-root div.row.fixed-header-padding app-header.col-12 header.header-container.overflow-hidden nav.navbar.navbar-expand-md.navbar-light.bg-light div.container div#navbarColor01.navbar-collapse.navbar-container.collapse ul.navbar-nav li.nav-item a#nav-link-login.nav-link
+
+Author of post (general)->
+/html/body/app-root/div[2]/app-all-posts/div/div/div[PostNumber]
+
+Author of post 1->
+div.col-12:nth-child(1)
+/html/body/app-root/div[2]/app-all-posts/div/div/div[1]
+html body app-root div.container-fluid app-all-posts div.container div.row.post-list-container div.col-12.offset-md-1.col-md-10.offset-lg-3.col-lg-6
+
+Pic of author 1 ->
+html body app-root div.container-fluid app-all-posts div.container div.row.post-list-container div.col-12.offset-md-1.col-md-10.offset-lg-3.col-lg-6 app-post-detail div.post-feed-container div.post-feed-img img
+div.col-12:nth-child(1) > app-post-detail:nth-child(1) > div:nth-child(1) > div:nth-child(2) > img:nth-child(1)
+/html/body/app-root/div[2]/app-all-posts/div/div/div[1]/app-post-detail/div/div[1]/img
+
+Follow button1 ->
+/html/body/app-root/div[2]/app-all-posts/div/div/div[1]/app-post-detail/div/app-small-user-profile/div/div[2]
+
+Post IMG 1->
+Like button 1 ->
+Dislike button 1 ->
+Timestamp 1->
+Post-info 1->
+Post ->
+Post List->
